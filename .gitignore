@@ -1,0 +1,68 @@
+# Python/Django
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env.*
+
+# Django static/media
+static/
+media/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node/npm
+node_modules/
+
+# Svelte build
+core/static/_app/immutable/
+
+# Other
+*.swp
+*.swo
+
+# Local settings
+local_settings.py
+
+# Coverage/test
+htmlcov/
+.coverage
+.tox/
+
+# Backup files
+*~
+*.bak
+
+# Misc
+*.tmp
+*.temp
+
+# Ignore exported files
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Ignore compiled files
+*.out
+*.o
+*.so
+*.exe
+*.dll
+*.class
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/

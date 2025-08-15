@@ -1,0 +1,72 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link href="{% static '_app/immutable/assets/Toaster.BeB-ITtk.css' %}" rel="stylesheet">
+		<link href="{% static '_app/immutable/assets/0.BgYKMTFC.css' %}" rel="stylesheet">
+		<meta name="description" content="Create playful digital letters with sticky notes, photos, voice messages, Spotify tracks, and doodles. A creative digital playground experience."/>
+		<meta name="keywords" content="digital playground, sticky notes, voice messages, spotify integration, drawing tool, digital gift"/>
+		<meta name="author" content="Digital Playground"/>
+		<meta name="language" content="en"/>
+		<meta name="robots" content="index, follow"/>
+		<link rel="canonical" href="https://digitalplayground.site"/>
+		<meta property="og:title" content="Digital Playground"/>
+		<meta property="og:description" content="Create personalized digital letters with various interactive elements."/>
+		<meta property="og:type" content="website"/>
+		<meta property="og:image" content="{% static 'opengraph-image.png' %}"/>
+		<meta property="og:image:secure_url" content="{% static 'opengraph-image.png' %}"/>
+		<meta property="og:image:width" content="1200"/>
+		<meta property="og:image:height" content="630"/>
+		<meta property="og:image:type" content="image/png"/>
+		<meta property="og:image:alt" content="Digital Playground - Create Interactive Digital Letters"/>
+		<meta property="og:url" content="https://digitalplayground.site"/>
+		<meta property="og:site_name" content="Digital Playground"/>
+		<meta property="og:locale" content="en_US"/>
+		<meta name="twitter:card" content="summary_large_image"/>
+		<meta name="twitter:site" content="@ibrahimraimi_"/>
+		<meta name="twitter:creator" content="@ibrahimraimi_"/>
+		<meta name="twitter:title" content="Digital Playground"/>
+		<meta name="twitter:description" content="Create personalized digital letters with interactive sticky notes, photos, voice messages, Spotify tracks, and doodles."/>
+		<meta name="twitter:image" content="{% static 'opengraph-image.png' %}"/>
+		<meta name="twitter:image:alt" content="Digital Playground - Create Interactive Digital Letters"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="theme-color" content="#ffffff"/>
+		<meta name="format-detection" content="telephone=no"/>
+		<meta name="mobile-web-app-capable" content="yes"/>
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+		<meta name="apple-mobile-web-app-title" content="Digital Playground"/>
+		<link rel="icon" href="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%3e%3cg%20fill='currentColor'%20fill-rule='evenodd'%20clip-rule='evenodd'%3e%3cpath%20d='M14.276%209.2a1.3%201.3%200%200%200-.911-.87a5.2%205.2%200%200%200-1.821%200q-.345.03-.69%200a.5.5%200%200%201-.36-.17c-.251-.39.08-.651.48-.831a3.7%203.7%200%200%201%201.7-.33a.29.29%200%200%200%20.36-.19a.27.27%200%200%200-.23-.32a3.4%203.4%200%200%200-1-.07a.2.2%200%200%201%200-.08a1%201%200%200%200%200-.23a.5.5%200%200%200%200-.221c-.05-.19-.14-.34-.2-.52a.32.32%200%200%200-.32-.32a.33.33%200%200%200-.32.33a5%205%200%200%200-.16.57q-.009.12%200%20.24q-.017.12%200%20.24l.06.13a2.55%202.55%200%200%200-1.001.48a1.19%201.19%200%200%200-.23%201.572a1.38%201.38%200%200%200%201%20.7a8%208%200%200%200%201.761%200a2.2%202.2%200%200%201%20.64%200a.33.33%200%200%201%20.17.55a1.9%201.9%200%200%201-.61.43a3.6%203.6%200%200%201-1.61.31a1.2%201.2%200%200%201-.46-.14a2.3%202.3%200%200%201-.461-.31a.32.32%200%200%200-.45.05a.32.32%200%200%200%200%20.44q.304.28.66.491q.266.136.56.19q.27.024.54%200a2%202%200%200%200%200%20.23a2%202%200%200%200%200%20.23c.06.19.14.34.21.52a.31.31%200%200%200%20.321.311a.3.3%200%200%200%20.31-.32q.108-.278.17-.57q.015-.127%200-.25a1%201%200%200%200%200-.23c.478-.099.93-.293%201.331-.571a1.31%201.31%200%200%200%20.56-1.471'/%3e%3cpath%20d='M4.51%208.79a5.28%205.28%200%200%201-.11-5.364a2.43%202.43%200%200%201%202-1.25a4.55%204.55%200%200%201%202.632.58a5.1%205.1%200%200%201%201.491%201.491c.39.45.76.35%201%20.15q.16-.185.271-.4c.24-.39.42-1%20.65-1.311c.402-.583.95-1.05%201.591-1.35a3.14%203.14%200%200%201%202.001-.231a3.1%203.1%200%200%201%202.002%201.691c.422.846.648%201.776.66%202.722a9.55%209.55%200%200%201-1.68%205.163a8.9%208.9%200%200%201-4.203%203.462a.31.31%200%200%200-.19.4a.31.31%200%200%200%20.4.2a9.6%209.6%200%200%200%204.622-3.632a10.54%2010.54%200%200%200%201.892-5.583a6.9%206.9%200%200%200-1-3.743a3.77%203.77%200%200%200-2.192-1.66a4.06%204.06%200%200%200-2.702.25a5%205%200%200%200-2.081%201.68a8.4%208.4%200%200%200-.53%201.121a5.1%205.1%200%200%200-1.501-1.36a5.37%205.37%200%200%200-3.853-.55a3.28%203.28%200%200%200-2.151%201.73a6.17%206.17%200%200%200%20.28%206.204a14%2014%200%200%200%206.844%205.403c.34.16.52-.28.32-.49A13.44%2013.44%200%200%201%204.51%208.79'/%3e%3cpath%20d='M22.04%2016.134a1.15%201.15%200%200%200-.34-.75a.88.88%200%200%200-.67-.13c-.52.08-1.831.39-1.942.4a6.94%206.94%200%200%200-4.562%202.001a7%207%200%200%200-1.631%204.002c-.08-.5-.15-1-.22-1.58s-.17-1.221-.26-1.812a35%2035%200%200%201-.48-3.602a.27.27%200%200%200-.251-.3c-.78-.08-.36%201.3-.36%203.562q.036.706.16%201.401c.07.46.16.93.26%201.381a1%201%200%200%200%200%20.15a8.5%208.5%200%200%200-2.271-2.201a4.87%204.87%200%200%200-2.832-.69a5.2%205.2%200%200%200-1.24.22c-.571.16-1.122.4-1.662.6l-.9.3h-.48a.59.59%200%200%200-.428.56c0%20.107.03.21.087.3c.197.28.453.513.75.68c.52.321%201.241.591%201.581.791a15.3%2015.3%200%200%200%204.683%201.962a5.52%205.52%200%200%200%203.432-.37q.164.425.39.82a.321.321%200%200%200%20.571-.3a1%201%200%200%201-.09-.22a.3.3%200%200%200%20.3%200a5.2%205.2%200%200%201%201.471-.74a19.8%2019.8%200%200%200%204.002-1.292a6.5%206.5%200%200%200%201.812-1.63a6%206%200%200%200%201.06-2.232c.093-.42.113-.854.06-1.28m-9.806%206.294a4.9%204.9%200%200%201-3.002.18a14.4%2014.4%200%200%201-4.282-2.061c-.28-.17-.78-.39-1.24-.64l.47-.15c.52-.21%201-.44%201.59-.621q.489-.172%201-.24a4.06%204.06%200%200%201%202.372.43a10.2%2010.2%200%200%201%203.102%203.102zm8.806-5.813a5%205%200%200%201-.09.56a5.1%205.1%200%200%201-.911%201.83a5.5%205.5%200%200%201-1.47%201.452a19.6%2019.6%200%200%201-3.743%201.39a6%206%200%200%200-1.631.911v.1c0%20.03-.05-.21-.08-.32a.27.27%200%200%200%20.28-.24a6.8%206.8%200%200%201%201.751-4.093a6.08%206.08%200%200%201%204.063-1.53c.1%200%201.18-.25%201.81-.35q.02.143.02.29'/%3e%3c/g%3e%3c/svg%3e"/>
+		<link rel="apple-touch-icon" href="{% static 'apple-touch-icon.png' %}"/>
+		<title>Digital Playground | Create Interactive Digital Letters</title>
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+			<h1>404</h1>
+			<p>Not Found</p>
+			<div class="toaster  svelte-1phplh9" role="alert"></div>
+			<script>
+				{
+					__sveltekit_to6il = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+					const element = document.currentScript.parentElement;
+					Promise.all([
+						import("{% static '_app/immutable/entry/start.DoN0Bznj.js' %}"),
+						import("{% static '_app/immutable/entry/app.CWTpGgzj.js' %}")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 1],
+							data: [null,null],
+							form: null,
+							error: {message:"Not Found"},
+							status: 404
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
